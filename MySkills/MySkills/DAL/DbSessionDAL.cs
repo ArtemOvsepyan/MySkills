@@ -9,16 +9,16 @@ namespace MySkills.DAL
 			string sql = @"insert into DbSession (DbSessionID, SessionData, Created, LastAccessed, UserId)
                       values (@DbSessionID, @SessionData, @Created, @LastAccessed, @UserId)";
 			await DbHelper.ExecuteAsync(sql, model);
-		}      
-
-        public async Task<SessionModel?> Get(Guid sessionId)
-		{
-			string sql = @"select DbSessionID, SessionData, Created, LastAccessed, UserId from DbSession where DbSessionID = @sessionId";
-			var sessions = await DbHelper.QueryAsync<SessionModel>(sql, new { sessionId });
-			return sessions.FirstOrDefault();
 		}
 
-		public async Task Lock(Guid sessionId)
+        public async Task<SessionModel?> Get(Guid sessionId)
+        {
+            string sql = @"select DbSessionID, SessionData, Created, LastAccessed, UserId from DbSession where DbSessionID = @sessionId";
+            var sessions = await DbHelper.QueryAsync<SessionModel>(sql, new { sessionId });
+            return sessions.FirstOrDefault();
+        }
+
+        public async Task Lock(Guid sessionId)
 		{
 			string sql = @"select DbSessionID from DbSession with (rowlock, updlock) where DbSessionID = @sessionId";
 			await DbHelper.QueryAsync<SessionModel>(sql, new { sessionId });
