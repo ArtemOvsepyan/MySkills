@@ -19,17 +19,17 @@ namespace MySkills.DAL
         }
 
         public async Task Lock(Guid sessionId)
-		{
-			string sql = @"select DbSessionID from DbSession with (rowlock, updlock) where DbSessionID = @sessionId";
-			await DbHelper.QueryAsync<SessionModel>(sql, new { sessionId });
-		}
+        {
+            string sql = @"select DbSessionID from DbSession with (rowlock, updlock) where DbSessionID = @sessionId";
+            await DbHelper.QueryAsync<SessionModel>(sql, new { sessionId });
+        }
 
-		public async Task Update(Guid dbSessionID, string sessionData)
-		{
-			string sql = @"update DbSession
+        public async Task Update(Guid dbSessionID, string sessionData)
+        {
+            string sql = @"update DbSession
                     set SessionData = @SessionData
                     where DbSessionID = @DbSessionID";
-			await DbHelper.ExecuteAsync(sql, new {dbSessionID, sessionData});
+            await DbHelper.ExecuteAsync(sql, new {dbSessionID, sessionData});
 		}
 
         public async Task Extend(Guid dbSessionID)
