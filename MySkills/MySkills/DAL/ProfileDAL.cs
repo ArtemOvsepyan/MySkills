@@ -32,12 +32,12 @@ namespace MySkills.DAL
         public async Task Update(ProfileModel profile)
 		{
 			string sql = @"update Profile
-					set ProfileName = @ProfileName, 
-						FirstName = @FirstName, 
-						LastName = @LastName, 
-						ProfileImage = @ProfileImage
+                    set ProfileName = @ProfileName, 
+                        FirstName = @FirstName, 
+                        LastName = @LastName, 
+                        ProfileImage = @ProfileImage
                     where ProfileId = @ProfileId";
-			var result = await DbHelper.QueryAsync<int>(sql, profile);
+            var result = await DbHelper.QueryAsync<int>(sql, profile);
 		}
 
         public async Task<IEnumerable<ProfileModel>> Search(int top)

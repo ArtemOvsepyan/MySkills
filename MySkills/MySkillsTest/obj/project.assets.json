@@ -4448,11 +4448,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
+      "projectUniqueName": "D:\\GitHub\\MySkills\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
       "projectName": "MySkillsTest",
-      "projectPath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
+      "projectPath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
       "packagesPath": "C:\\Users\\Artryom\\.nuget\\packages\\",
-      "outputPath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsTest\\obj\\",
+      "outputPath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4473,8 +4473,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkills\\MySkills.csproj": {
-              "projectPath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkills\\MySkills.csproj"
+            "D:\\GitHub\\MySkills\\MySkills\\MySkills\\MySkills.csproj": {
+              "projectPath": "D:\\GitHub\\MySkills\\MySkills\\MySkills\\MySkills.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6tRdzBn6SVVUG4zwOhwbFG8XrAhlsIWqqMUKwWjdBC7/Mg3r8qMnXNA2ZaO+zU+Nsn6MpxcIC4kLWP+/GsvH+w==",
+  "dgSpecHash": "dPtR8n9/loa31FMGLwxOXu0i4JQsDuFErBcBefhnxGsccnJRFn44a/x8DfVhwACmxHZyz1Ooexkah7lYL1B4qA==",
   "success": true,
-  "projectFilePath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
+  "projectFilePath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artryom\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "C:\\Users\\Artryom\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",

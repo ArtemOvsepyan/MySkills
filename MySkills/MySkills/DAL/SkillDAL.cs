@@ -30,7 +30,7 @@ namespace MySkills.DAL
             return await DbHelper.QueryAsync<ProfileSkillModel>(@$"
                     select ProfileSkillId, ProfileId, ps.SkillId, Level, SkillName
                     from ProfileSkill ps
-					join Skill s on ps.SkillId = s.SkillId
+                    join Skill s on ps.SkillId = s.SkillId
                     where ProfileId = @profileId", new { profileId });
         }
 

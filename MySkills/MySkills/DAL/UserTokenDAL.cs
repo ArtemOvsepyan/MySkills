@@ -6,7 +6,7 @@
 		{
 			Guid tokenid = Guid.NewGuid();
 			string sql = @"insert into UserToken (UserTokenID, UserId, Created)
-                      values (@tokenid, @UserId, getdate())";
+                    values (@tokenid, @UserId, getdate())";
 
 			await DbHelper.ExecuteAsync(sql, new { userid, tokenid });
 			return tokenid;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IqQkjsdyJnAXP+EM+XYG0IjzZQHADB7wf/gVFiZSG95YlujFH9/IUgHNSmPfix1gfciiGiEiPiojEaBHLYSbrg==",
+  "dgSpecHash": "riRoFGN8lrs7uSYeSv4G158jsApztKC71WC7ZLPuoNdue7G6Qj8oLErxErzqtM0xJ3I32WoiXuj69Xgr9pKUxg==",
   "success": true,
-  "projectFilePath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
+  "projectFilePath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsTest\\MySkillsTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artryom\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Artryom\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

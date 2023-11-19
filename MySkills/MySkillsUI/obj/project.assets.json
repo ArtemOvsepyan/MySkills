@@ -1807,11 +1807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
+      "projectUniqueName": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
       "projectName": "MySkillsUI",
-      "projectPath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
+      "projectPath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\MySkillsUI.csproj",
       "packagesPath": "C:\\Users\\Artryom\\.nuget\\packages\\",
-      "outputPath": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\obj\\",
+      "outputPath": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
