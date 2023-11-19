@@ -11,7 +11,7 @@ namespace MySkills.DAL
                     from AppUser 
                     where Email = @email", new { email });
             return result.FirstOrDefault() ?? new UserModel();
-		}
+        }
         public async Task<UserModel> GetUser(int id)
         {
             var result = await DbHelper.QueryAsync<UserModel>(@"
@@ -19,13 +19,13 @@ namespace MySkills.DAL
                     from AppUser 
                     where UserId = @id", new { id });
             return result.FirstOrDefault() ?? new UserModel();
-		}
+        }
         public async Task<int> CreateUser(UserModel model)
         {
             string sql = @"insert into AppUser(Email, Password, Salt, Status)
                     values(@Email, @Password, @Salt, @Status);
                     select SCOPE_IDENTITY() as 'userid'";
             return await DbHelper.QueryScalarAsync<int>(sql, model);
-		}
-	}
+        }
+    }
 }

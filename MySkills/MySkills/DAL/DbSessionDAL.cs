@@ -34,7 +34,7 @@ namespace MySkills.DAL
 
         public async Task Extend(Guid dbSessionID)
         {
-			string sql = @"update DbSession
+            string sql = @"update DbSession
 					set LastAccessed = @lastAccessed
 					where DbSessionID = @dbSessionID";
             await DbHelper.ExecuteAsync(sql, new { dbSessionID, lastAccessed = DateTime.Now });
