@@ -126,5 +126,11 @@ namespace MySkills.BL.Auth
         {
             sessionModel = null;
         }
+
+        public void LogOut()
+        {
+            webCookie.Delete(AuthConstants.RememberMeCookieName);
+            webCookie.Delete(AuthConstants.SessionCookieName);
+        }
     }
 }

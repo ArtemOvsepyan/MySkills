@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\obj\\Debug\\net7.0\\build-gz\\ktkNEb8C.gz",
+      "Id": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\obj\\Debug\\net7.0\\build-gz\\ktkNEb8C.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\Microsoft Visual Studio\\Projects\\MySkills\\MySkillsUI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MySkillsUI.styles.css",
+      "Id": "D:\\GitHub\\MySkills\\MySkills\\MySkillsUI\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MySkillsUI.styles.css",
       "PackagePath": "staticwebassets\\MySkillsUI.styles.css"
     },
     {

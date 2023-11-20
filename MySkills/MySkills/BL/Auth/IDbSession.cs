@@ -22,6 +22,8 @@ namespace MySkills.BL.Auth
 
         void RemoveValue(string key);
 
+        void LogOut();
+
         object GetValueDef(string key, object defaultValue);
     }
 }
